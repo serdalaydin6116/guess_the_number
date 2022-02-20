@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Find The Number</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Guess The Number (Between <span class="first_num">1</span> and
+        <span class="second_num">100</span> )
+      </h1>
+
+      <h3>(You have 10 rights to guess the number)</h3>
+
+      <div class="sections" id="input">
+        <input
+          type="text"
+          name=""
+          id="number"
+          placeholder="Enter a number..."
+        />
+        <button id="check_button">CHECK</button>
+        <button id="reset_button">RESET</button>
+      </div>
+
+      <img src="./image/wizard hat.png" alt="" id="wizard" />
+
+      <div class="sections" id="assessment">
+        <p id="feedback">Write a Number</p>
+      </div>
+      
+      <video
+        src="https://pixabay.com/tr/users/vimeo-free-videos-1283884/?tab=videos"
+        alt="Loading..."
+        id="loading"
+        class="loading"
+        style="display: none"
+      ></video>
+
+      <div class="sections">
+        <p id="attempts"><span id="attempt">10</span> attempts are left.</p>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

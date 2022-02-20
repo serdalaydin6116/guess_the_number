@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgb(025, 55, 055), yellow);
+    
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+
+img{
+    width: 10rem;
+    border-radius: 10rem;
+    margin-top: 1rem;
+}
+
+.loading{
+    size: 100%;
+}
+.sections{
+    margin-top: 3rem;
+}
+
+
+#number, #check_button, #reset_button{
+    border-radius: 1rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+
+#check_button{
+    width: 5rem;
+    margin-left: 0.5rem;
+    background-color: rgb(226, 43, 128);
+    color: white;
+}
+
+#reset_button{
+    width: 5rem;
+    margin-left: 0.5rem;
+    background-color: rgb(161, 135, 222);
+    color: black;
+}
+
+#number{
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: aqua;
+}
+
+
+
+#counter{
+    font-size: 1rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+#feedback{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
